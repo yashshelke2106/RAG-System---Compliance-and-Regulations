@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets / local config
+.env
+
+# Generated indexes (rebuilt with `python -m src.rag.cli build`)
+storage/*
+!storage/.gitkeep
+*.faiss
+*.index
+*.pkl
+
+# Hugging Face model cache (if pointed here)
+.cache/
+
+# OS
+.DS_Store
+Thumbs.db

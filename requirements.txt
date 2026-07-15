@@ -1,0 +1,21 @@
+# Core RAG pipeline (all local, no external API keys required)
+faiss-cpu>=1.7.4
+sentence-transformers>=2.6.0
+rank-bm25>=0.2.2
+transformers>=4.40.0
+torch>=2.1.0
+
+# PDF ingestion
+pypdf>=4.0.0
+reportlab>=4.0.0            # only needed to (re)generate the sample corpus
+
+# API + CLI
+fastapi>=0.110.0
+uvicorn[standard]>=0.29.0
+pydantic>=2.6.0
+typer>=0.12.0
+rich>=13.7.0
+
+# Eval + tests
+pytest>=8.0.0
+numpy>=1.26.0
