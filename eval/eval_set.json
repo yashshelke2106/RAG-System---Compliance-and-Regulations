@@ -1,0 +1,17 @@
+{
+  "in_corpus": [
+    {"question": "What triggers enhanced due diligence?", "gold_doc": "AML-Policy.pdf", "gold_section": "§4.1"},
+    {"question": "What measures are required for EDD relationships?", "gold_doc": "AML-Policy.pdf", "gold_section": "§4.2"},
+    {"question": "How quickly must suspicious activity be reported?", "gold_doc": "AML-Policy.pdf", "gold_section": "§5"},
+    {"question": "How long must CDD records be retained?", "gold_doc": "AML-Policy.pdf", "gold_section": "§6"},
+    {"question": "How often are high-risk customers reviewed?", "gold_doc": "KYC-Onboarding-Standard.pdf", "gold_section": "§4.1"},
+    {"question": "What documents are needed for entity customers?", "gold_doc": "KYC-Onboarding-Standard.pdf", "gold_section": "§3"},
+    {"question": "What is the deadline to report a personal data breach?", "gold_doc": "Data-Retention-Privacy-Policy.pdf", "gold_section": "§4"},
+    {"question": "How long are transaction records retained under the privacy policy?", "gold_doc": "Data-Retention-Privacy-Policy.pdf", "gold_section": "§2"}
+  ],
+  "out_of_corpus": [
+    {"question": "What is the maximum leverage ratio for a Basel III bank?"},
+    {"question": "How do I compute value at risk for an options portfolio?"},
+    {"question": "What is the corporate tax rate in Ireland?"}
+  ]
+}
