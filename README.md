@@ -184,7 +184,3 @@ The included corpus (`AML-Policy.pdf`, `KYC-Onboarding-Standard.pdf`, `Data-Rete
 - **Embeddings:** any sentence-transformers model, or an API embedder, via `embeddings.embed_texts()`.
 
 ---
-
-## License
-
-MIT — see `LICENSE`. The sample PDFs are original content created for this project.
