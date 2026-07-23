@@ -6,7 +6,6 @@
 ![FastAPI](https://img.shields.io/badge/API-FastAPI-009688)
 ![Retrieval](https://img.shields.io/badge/retrieval-FAISS%20%2B%20BM25%20hybrid-4f7cff)
 ![Tests](https://img.shields.io/badge/tests-12%20passing-2ecc9b)
-![License](https://img.shields.io/badge/license-MIT-lightgrey)
 
 Runs **fully local — no API keys**: sentence-transformers embeddings, a FAISS dense index, BM25 lexical search, a cross-encoder reranker, and a Flan-T5 generator.
 
